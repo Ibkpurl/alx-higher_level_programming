@@ -1,11 +1,8 @@
 #!/usr/bin/python3
-def square_matrix_simple(matrix=[]):
-    new_matrix = []
-    for row in matrix:
-        new_row = list([x**2 for x in row])
-        new_matrix.append(new_row)
-    return(new_matrix)
 
-'''
-return[[n**2 for n in row] for row in matrix]
-'''
+
+def square_matrix_simple(matrix=[]):
+    """
+    Compute the square value of all integers of a matrix
+    """
+    return ([[(x**2) for x in row] for row in matrix])
