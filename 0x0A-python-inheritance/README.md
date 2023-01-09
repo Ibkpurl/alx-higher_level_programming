@@ -36,15 +36,3 @@ To know more about class, object or instance, and isinstance
 * All functions have a documentation (``python3 -c 'print(__import__("my_module").my_function.__doc__)'`` and <br> ``python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)'``)
 * A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
 * We strongly encourage you to work together on test cases, so that you don’t miss any edge case – The Checker is checking for tests!
-
-
-## List of files and description:
-| S/N   |       Files          |        Description  |
-|:-----:|:--------------------:|:-------------------|
-|1. | [0-lookup.py](https://github.com/Dikachis/alx-higher_level_programming/blob/master/0x0A-python-inheritance/0-lookup.py) | A function that returns the list of available attributes and methods of an object: |
-|2. | [1-my_list.py](https://github.com/Dikachis/alx-higher_level_programming/blob/master/0x0A-python-inheritance/1-my_list.py) <br> [tests/1-my_list.txt](https://github.com/Dikachis/alx-higher_level_programming/tree/master/0x0A-python-inheritance/tests)| To write a class ``MyList`` that inherits from ``list``:|
-|3. | [2-is_same_class.py](https://github.com/Dikachis/alx-higher_level_programming/blob/master/0x0A-python-inheritance/2-is_same_class.py) | A function that returns ``True`` if the object is exactly an instance of the specified class ; otherwise ``False``. |
-|4. | [3-is_kind_of_class.py](https://github.com/Dikachis/alx-higher_level_programming/blob/master/0x0A-python-inheritance/3-is_kind_of_class.py) | A function that returns ``True`` if the object is an instance of, or <br> if the object is an instance of a class that inherited from, the specified class ; otherwise ``False``. |
-|5. | [4-inherits_from.py](https://github.com/Dikachis/alx-higher_level_programming/blob/master/0x0A-python-inheritance/4-inherits_from.py) | A function that returns ``True`` if the object is an instance of a class that inherited (directly or indirectly) from the specified class ; otherwise ``False``. |
-|6. | [6-base_geometry.py](https://github.com/Dikachis/alx-higher_level_programming/blob/master/0x0A-python-inheritance/6-base_geometry.py) | A class BaseGeometry (based on 5-base_geometry.py).: |
-|7. | [7-base_geometry.py](https://github.com/Dikachis/alx-higher_level_programming/blob/master/0x0A-python-inheritance/7-base_geometry.py) | A class ``BaseGeometry`` (based on ``6-base_geometry.py``). |
